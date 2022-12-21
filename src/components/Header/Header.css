@@ -1,0 +1,207 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 100px;
+
+}
+
+.header h1 {
+    margin-left: 18%;
+    padding-top: 25px;
+    font-size: 13.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header p {
+    display: flex;
+    margin-left: 18%;
+    margin-right: 17%;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    margin-top: -3px;
+}
+
+.header p h6 {
+    color: lightgray;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 1px;
+    font-size: 12px;
+}
+
+.header p ul {
+    display: flex;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+.header p ul li {
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-top: -12px;
+}
+
+.header p ul li a {
+    text-decoration: none;
+    color: grey;
+
+}
+
+.header p ul li a f {
+    color: hotpink;
+}
+
+.header p ul li a:hover {
+    color: pink;
+
+}
+
+.btn {
+
+    margin-left: 67%;
+    margin-top: -5%;
+}
+
+.btn .save {
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 70px;
+    margin-right: 10px;
+    border-radius: 8px;
+    background-color: rgb(247, 233, 233);
+}
+
+.btn .like {
+    background-color: hotpink;
+    color: white;
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 70px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.fa-heart {
+    padding-right: 5px;
+}
+
+.circle {
+    display: relative;
+    margin-top: 10px;
+    margin-bottom: -80px;
+}
+
+.cicle-header {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: -140px;
+
+
+
+}
+
+.cicle-header1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: -10px;
+    margin-left: -20px;
+    border-style: solid;
+    color: white;
+
+
+}
+
+.cicle-header2 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-bottom: -6px;
+    margin-left: 93%;
+    border-style: solid;
+    color: white;
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .header{
+        width: 360px;
+    }
+    .header h1 {
+        margin-top: -20px;
+        margin-left: -30px;
+        font-size: 20px;
+    }
+
+    .circle {
+        margin-top: 25px;
+        margin-left: -180px;
+
+
+    }
+    .header p h6{
+        color:lightgray;
+        margin-top:3px;
+        font-size: 12px;
+        margin-left: -25px;
+        margin-right: 10px;
+    }
+
+    .header p {
+        width: 460px;
+        margin-left: 20px;
+        font-size: 15px;
+        margin-top: 35px;
+        margin-bottom: 40px;
+     
+
+    }
+
+
+    .header p ul {
+      display: flex;
+        padding-right: 5px;
+        margin-left: -7px; 
+        
+    }
+
+    .btn {
+        margin-top: 40px;
+    }
+
+    .btn .save {
+        margin-top: 20px;
+        margin-left: -200px;
+        display: none;
+    }
+
+    .btn .like {
+        margin-left: 20px;
+
+        display: none;
+    }
+
+    .cicle-header {
+
+        width: 50px;
+        height: 50px;
+    }
+
+    .cicle-header2 {
+        display: none;
+
+    }
+    .header p ul li a f {
+       margin-left: 20px;
+    }
+
+
+}
